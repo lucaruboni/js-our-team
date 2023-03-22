@@ -17,42 +17,51 @@ Organizzare i singoli membri in card/schede */
 
 /* Creo l'array dei membri del team e ne inserisco  le informazioni */
 
-const  TeamMember = [
+const  teamMember = [
     //member 1(0)
     {
-        name: ,
-        position: ,
-        img:
-    }
+        name: "Wayne Barnett",
+        position: "Founder & CEO",
+        img:"./assets/img/angela-caroll-chief-editor.jpg"
+    },
     //member 2(1)
     {
-        name: ,
-        position: ,
-        img:
-    }
+        name: "Angela Caroll",
+        position: "Chief Editor",
+        img:"./assets/img/angela-lopez-social-media-manager.jpg"
+    },
     //member 3(2)
     {
-        name: ,
-        position: ,
-        img:
-    }
+        name: "Walter Gordon",
+        position: "Office Manager",
+        img:"./assets/img/barbara-ramos-graphic-designer.jpg"
+    },
     //member 4(3)
     {
-        name: ,
-        position: ,
-        img:
-    }
+        name: "Angela Lopez",
+        position: "Social Media Manager",
+        img:"./assets/img/scott-estrada-developer.jpg"
+    },
     //member 5(4)
     {
-        name: ,
-        position: ,
-        img:
-    }
+        name: "Scott Estrada",
+        position: "Developer",
+        img:"./assets/img/walter-gordon-office-manager.jpg"
+    },
     //member 6(51)
     {
-        name: ,
-        position: ,
-        img:
+        name: "Barbara Ramos",
+        position: "Graphic Designer",
+        img:"./assets/img/wayne-barnett-founder-ceo.jpg"
     }
     
 ]
+
+
+//console.log delle informazioni dei membri del team
+
+for (const key in teamMember) {
+    console.log(key, teamMember[key], 'team member' )
+
+  
+}
