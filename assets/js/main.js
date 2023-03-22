@@ -62,6 +62,29 @@ const  teamMember = [
 
 for (const key in teamMember) {
     console.log(key, teamMember[key], 'team member' )
+}
 
-  
+//stampo nella Dom le stesse informazioni che ho preso nel console.log
+
+//seleziono l'elemento della Dom 
+
+const rowElement = document.querySelector('.row')
+
+for (let i = 0; i < teamMember.length; i++) {
+    const thisMember = teamMember[i];
+    // console.log(thisMember)
+
+    const memberMarkup = `
+    <div class="col">
+        <div class="card">
+            <img src="${thisMember.img}" alt="" class="card-img-top">
+            <div class="card-body">
+                <h3>${thisMember.name}</h3>
+                <p>${thisMember.position}</p>
+            </div>
+        </div>
+    </div>`
+
+    rowElement.innerHTML += memberMarkup
+    
 }
