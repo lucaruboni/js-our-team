@@ -70,10 +70,12 @@ for (const key in teamMember) {
 
 const rowElement = document.querySelector('.row')
 
+//ciclo per leggere i singoli oggetti dell'array
 for (let i = 0; i < teamMember.length; i++) {
     const thisMember = teamMember[i];
     // console.log(thisMember)
 
+    //scrivo il markup nel quale inserire i valori degli oggetti
     const memberMarkup = `
     <div class="col">
         <div class="card">
@@ -85,6 +87,7 @@ for (let i = 0; i < teamMember.length; i++) {
         </div>
     </div>`
 
+    //stampo nel htmlMarkup le card 
     rowElement.innerHTML += memberMarkup
     
 }
