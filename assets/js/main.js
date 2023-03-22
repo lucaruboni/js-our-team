@@ -16,3 +16,43 @@ Organizzare i singoli membri in card/schede */
 
 
 /* Creo l'array dei membri del team e ne inserisco  le informazioni */
+
+const  TeamMember = [
+    //member 1(0)
+    {
+        name: ,
+        position: ,
+        img:
+    }
+    //member 2(1)
+    {
+        name: ,
+        position: ,
+        img:
+    }
+    //member 3(2)
+    {
+        name: ,
+        position: ,
+        img:
+    }
+    //member 4(3)
+    {
+        name: ,
+        position: ,
+        img:
+    }
+    //member 5(4)
+    {
+        name: ,
+        position: ,
+        img:
+    }
+    //member 6(51)
+    {
+        name: ,
+        position: ,
+        img:
+    }
+    
+]
