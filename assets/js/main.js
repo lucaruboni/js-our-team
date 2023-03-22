@@ -20,37 +20,37 @@ Organizzare i singoli membri in card/schede */
 const  teamMember = [
     //member 1(0)
     {
-        name: "Wayne Barnett",
+        name: "Angela Carrol",
         position: "Founder & CEO",
         img:"./assets/img/angela-caroll-chief-editor.jpg"
     },
     //member 2(1)
     {
-        name: "Angela Caroll",
+        name: "Angela Lopez",
         position: "Chief Editor",
         img:"./assets/img/angela-lopez-social-media-manager.jpg"
     },
     //member 3(2)
     {
-        name: "Walter Gordon",
+        name: "Barbara ramos",
         position: "Office Manager",
         img:"./assets/img/barbara-ramos-graphic-designer.jpg"
     },
     //member 4(3)
     {
-        name: "Angela Lopez",
+        name: "Scott Estrada",
         position: "Social Media Manager",
         img:"./assets/img/scott-estrada-developer.jpg"
     },
     //member 5(4)
     {
-        name: "Scott Estrada",
+        name: "Walter Gordon",
         position: "Developer",
         img:"./assets/img/walter-gordon-office-manager.jpg"
     },
     //member 6(51)
     {
-        name: "Barbara Ramos",
+        name: "Wayne Gordon",
         position: "Graphic Designer",
         img:"./assets/img/wayne-barnett-founder-ceo.jpg"
     }
