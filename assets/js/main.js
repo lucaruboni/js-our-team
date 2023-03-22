@@ -77,8 +77,8 @@ for (let i = 0; i < teamMember.length; i++) {
 
     //scrivo il markup nel quale inserire i valori degli oggetti
     const memberMarkup = `
-    <div class="col">
-        <div class="card">
+    <div class="col-3 d-flex justify-content-center m-2">
+        <div class="card card_style">
             <img src="${thisMember.img}" alt="" class="card-img-top">
             <div class="card-body">
                 <h3>${thisMember.name}</h3>
